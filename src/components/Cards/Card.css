@@ -1,0 +1,82 @@
+
+/* card note styles */
+
+.card-note{
+    width: 100%;
+    margin: 16px 0px 34px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-note-container{
+    display: flex;   
+}
+
+.image-note{
+    width: 100%;
+    border: 1px solid var(--grey);
+    
+}
+.card-body-note{
+    font-family: suecaslab;
+    padding: 0rem .3rem;
+    font-weight:400;
+}
+
+
+em{
+    color: var(--blue);
+    padding-right: .3rem;
+    font-style: normal;
+}
+
+/* cardAuthor styles */
+
+.card-author{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--grey);
+    margin: 16px 16px 32px 16px;
+    text-align: center;
+}
+.card-body-author{
+    padding: 0rem .3rem;
+    font-family: suecaslab;
+    font-weight:400;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+} 
+.avatar-container{
+    display: flex;
+    flex-direction: column;   
+    justify-self: flex-end;
+}
+
+.image-author-avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 1px solid var(--grey);
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.image-author{
+    width: 100%;
+    height: 100%;
+}
+
+.fullname-author{
+    font-family: Arial;
+    color:var(--black2);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 1rem;
+    margin-left: .3rem;
+    font-size: .875rem;
+    line-height: 1rem; 
+}
+
+

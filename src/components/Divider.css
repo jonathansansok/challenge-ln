@@ -1,0 +1,17 @@
+.divider{
+    height: 1px;
+    background: var(--grey);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.fullDivider{
+    margin: auto;
+}
+
+@media(min-width:1100px){
+    .fullDivider{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

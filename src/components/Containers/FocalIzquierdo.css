@@ -1,0 +1,49 @@
+
+@media (min-width: 768px) {
+    .focal-izquierdo{
+        display: grid; 
+        grid-template-rows: 20% 40% 40%;
+        grid-template-columns: 65% 35%;
+        margin-bottom: 36px;
+    }
+    
+    .focal-izquierdo .card-1{
+        grid-row: 2/4;
+        grid-column: 1/2;
+        border-right: 1px solid var(--grey);
+        padding: 0px 15px;
+    }
+    .focal-izquierdo .card-1 .card-note{
+        margin: 0px;
+    }
+    .focal-izquierdo .card-1 .image-note-container{
+        order: 1;
+    }
+    
+    .focal-izquierdo .card-1 .fullname-author{
+        margin-top: 10px;
+    }
+    .focal-izquierdo .card-1 .card-body-note p {
+        margin-top: 0px;
+    }
+
+    .focal-izquierdo .card-2{
+        grid-column: 2/2;
+        padding: 0px 15px;
+    }
+    .focal-izquierdo .card-2 h2{
+        font-family: suecaslab;
+    }
+    .focal-izquierdo .card-2 .card-note{
+        margin-top: 0px;
+    }
+    .focal-izquierdo .card-3{
+        padding: 0px 15px;
+        grid-column: 2/4;
+    }
+    .focal-izquierdo .card-3 .card-note{
+        margin-top:0px;
+        margin-bottom: 0px;
+    }
+  
+}

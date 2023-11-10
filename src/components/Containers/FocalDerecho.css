@@ -1,0 +1,29 @@
+@media (min-width:768px){
+    .focal-derecho{
+        display: grid;
+        grid-template-columns: 35% 65%;
+        margin-bottom: 20px;
+    }
+    .focal-derecho .card-1 {
+        grid-column: 1/2;
+        padding: 0px 15px;
+        border-right: 1px solid var(--grey);
+    }
+    .focal-derecho .card-1 h2{
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0,4px;
+    }
+    .focal-derecho .card-2 {
+        grid-column: 2/2;
+        padding: 0px 15px;
+    }
+    
+    .focal-derecho .card-note{
+        margin-top: 0px;
+    }
+    .focal-derecho .card-note p{
+        margin-top: 10px;
+    }
+
+}
