@@ -1,4 +1,4 @@
-import Divider from "../Divider";
+import Divider from "../Divider.jsx";
 import "./TitleContainer.css";
 export default function TitleContainer({ title }) {
   return (
