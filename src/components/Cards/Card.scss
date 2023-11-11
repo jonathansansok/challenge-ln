@@ -6,17 +6,19 @@
     margin: 16px 0px 34px 0px;
     display: flex;
     flex-direction: column;
+    .image-note{
+        width: 100%;
+        border: 1px solid var(--grey);
+        
+    }
+
 }
 
 .image-note-container{
     display: flex;   
 }
 
-.image-note{
-    width: 100%;
-    border: 1px solid var(--grey);
-    
-}
+
 .card-body-note{
 
     padding: 0rem .3rem;

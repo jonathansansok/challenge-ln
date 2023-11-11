@@ -116,7 +116,7 @@ const focalIzquierdoData = [
     imageNote: "https://www.lanacion.com.ar/resizer/v2/escapada-visitar-los-caracteristicos-paredones-45LBYAO5PVBUZIALKWDJAVH7IE.jpg?auth=1bd21b7995cc428b0a8d58edc002e4d42ba622154a113ee8ef366f64b6194c53&width=1920&height=1280&quality=70&smart=true",
     lead: "El sonido digital busca lo analógico",
     title:
-      "Inversiones millonarias en software para lograr emulación analógica",
+      "Inversion millonaria en software para lograr emulación analógica",
     subTitle: "",
     type: typeCard.note,
     urlNote: "https://slatedigital.com/",

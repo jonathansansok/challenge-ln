@@ -1,5 +1,5 @@
 import Divider from "../Divider.jsx";
-import "./TitleContainer.css";
+import "./TitleContainer.scss";
 export default function TitleContainer({ title }) {
   return (
     <section className="title-container">
