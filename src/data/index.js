@@ -5,9 +5,9 @@ const notas4ej1 = [
     author: "Jonathan Sansó",
     imageAlt: "Descrip. de imagen",
     imageAuthor: "images/avatar.png",
-    imageNote: "images/imagedefault.png",
+    imageNote: "https://www.lanacion.com.ar/resizer/v2/la-isla-privada-que-se-compro-patrick-parker-TASE4GRYU5GMHISOHG55J6TDQM.JPG?auth=51165c311f43cafebb8e303669bcbd65f1c50437c4e43550ef552bcdd683dbe1&width=880&height=586&quality=70&smart=true",
     lead: "Noviembre y lluvia",
-    marquee: "texto libre",
+    marquee: "mismo autor",
     title:
       "Expertos advierten que es normal en el hemisferio sur",
     subTitle: "Efectos colaterales positivos en el agro y consumo de electricidad, leer mas...",
@@ -18,9 +18,35 @@ const notas4ej1 = [
     author: "María Salva",
     imageAlt: "Descrip. de imagen",
     imageAuthor: "",
-    imageNote: "images/imagedefault.png",
+    imageNote: "https://resizer.glanacion.com/resizer/v2/eeuu-covid-19coronavirus-mundo-new-york-nueva-L2SNGRTR6VEQ5JNR44VDQ5IJVA.JPG?auth=28ed408b3509ec651a71854af59f21d035de5aa7e21e5549c91c17db85bf59d6&width=780&height=520&quality=70&smart=true",
     lead: "Noviembre y lluvia",
-    marquee: "texto libre",
+    marquee: "mismo autor",
+    title:
+      "Expertos advierten que es normal en el hemisferio sur",
+    subTitle: "Efectos colaterales positivos en el agro y consumo de electricidad, leer mas...",
+    type: typeCard.note,
+    urlNote: "www.nota.com.ar",
+  },
+  {
+    author: "Camila Isla",
+    imageAlt: "Descrip. de imagen",
+    imageAuthor: "",
+    imageNote: "https://resizer.glanacion.com/resizer/v2/el-uso-de-bicicletas-o-monopatines-electricos-ZXM5M5UQSJBHVEY7QS2ZGHOWZU.JPG?auth=92f0f7378d541c377be584194e941fe0ee33320046604e47562a7c8f6eb88b1f&width=780&height=520&quality=70&smart=true",
+    lead: "Noviembre y lluvia",
+    marquee: "mismo autor",
+    title:
+      "Expertos advierten que es normal en el hemisferio sur",
+    subTitle: "Efectos colaterales positivos en el agro y consumo de electricidad, leer mas...",
+    type: typeCard.note,
+    urlNote: "https://www.lanacion.com.ar/propiedades/inmuebles-comerciales/la-vuelta-a-la-oficina-es-obligada-o-por-eleccion-como-tomar-la-decision-y-que-factores-influyen-nid10112023/",
+  },
+  {
+    author: "Juan Areta",
+    imageAlt: "Descrip. de imagen",
+    imageAuthor: "",
+    imageNote: "https://resizer.glanacion.com/resizer/v2/lamborghini-urus-6SIPOLUIM5CIJGQKXQDYD7FVJA.jpg?auth=d3d3d539816a19c1d6f0736ae9602b54bf65f924b673025a881edd84d78c3d3e&width=780&height=520&quality=70&smart=true",
+    lead: "Noviembre y lluvia",
+    marquee: "mismo autor",
     title:
       "Expertos advierten que es normal en el hemisferio sur",
     subTitle: "Efectos colaterales positivos en el agro y consumo de electricidad, leer mas...",
@@ -29,36 +55,13 @@ const notas4ej1 = [
   },
 ];
 
-const focalDerechoData = [
-  {
-    imageAlt: "Descripcion de la imagen",
-    imageAuthor: "",
-    lead: "Conflicto.",
-    marquee: "texto libre",
-    subTitle:
-      "A través de las redes sociales, la joven dio a conocer los motivos por los que decidió mudarse con su padre",
-    title:
-      "La hija de Richards y Sheen aseguró que la casa de su madre era “un hogar abusivo”",
-    type: typeCard.note,
-    urlNote: "www.nota.com.ar",
-  },
-  {
-    imageAlt: "Descripcion de la imagen",
-    imageNote: "images/imagedefault.png",
-    lead: "MTV Video Awards.",
-    subTitle:
-      "De las transparencias de Megan Fox al conjunto sexy de Jennifer Lopez: músicos y actores sacaron a relucir su costado más sensual y transgresor en Nueva York",
-    title: "Las perlitas, los looks más llamativos y los ganadores de la noche",
-    type: typeCard.note,
-    urlNote: "www.nota.com.ar",
-  },
-];
+
 
 const card3 = [
   {
     author: "Pedro Villa",
     imageAlt: "Descrip. imagen",
-    imageNote: "images/imagedefault.png",
+    imageNote: "https://www.lanacion.com.ar/resizer/v2/escapada-visitar-los-caracteristicos-paredones-45LBYAO5PVBUZIALKWDJAVH7IE.jpg?auth=1bd21b7995cc428b0a8d58edc002e4d42ba622154a113ee8ef366f64b6194c53&width=1920&height=1280&quality=70&smart=true",
     lead: "Lluvia en vacaciones.",
     title:
       "La solución",
@@ -70,7 +73,7 @@ const card3 = [
   {
     author: "Augusto Kansas",
     imageAlt: "Descrip. imagen",
-    imageNote: "images/imagedefault.png",
+    imageNote: "https://www.lanacion.com.ar/resizer/v2/escapada-visitar-los-caracteristicos-paredones-45LBYAO5PVBUZIALKWDJAVH7IE.jpg?auth=1bd21b7995cc428b0a8d58edc002e4d42ba622154a113ee8ef366f64b6194c53&width=1920&height=1280&quality=70&smart=true",
     lead: "Al Norte",
     title:
       "Turismo en USA o Canadá",
@@ -97,7 +100,7 @@ const focalIzquierdoData = [
     author: "Jonathan Sansó",
     imageAlt: "Descrip. imagen",
     imageAuthor: "",
-    imageNote: "images/imagedefault.png",
+    imageNote: "https://www.lanacion.com.ar/resizer/v2/escapada-visitar-los-caracteristicos-paredones-45LBYAO5PVBUZIALKWDJAVH7IE.jpg?auth=1bd21b7995cc428b0a8d58edc002e4d42ba622154a113ee8ef366f64b6194c53&width=1920&height=1280&quality=70&smart=true",
     lead: "DIGITALIZARSE.",
     title:
       "Masiva apertura en Twitch y Youtube de los clásicos periodistas de TV.",
@@ -110,7 +113,7 @@ const focalIzquierdoData = [
     author: "Juan Bugera",
     imageAlt: "Descrip. imagen",
     imageAuthor: "",
-    imageNote: "images/imagedefault.png",
+    imageNote: "https://www.lanacion.com.ar/resizer/v2/escapada-visitar-los-caracteristicos-paredones-45LBYAO5PVBUZIALKWDJAVH7IE.jpg?auth=1bd21b7995cc428b0a8d58edc002e4d42ba622154a113ee8ef366f64b6194c53&width=1920&height=1280&quality=70&smart=true",
     lead: "El sonido digital busca lo analógico",
     title:
       "Inversiones millonarias en software para lograr emulación analógica",
@@ -123,7 +126,7 @@ const focalIzquierdoData = [
     author: "Pablo Waves",
     imageAlt: "Descrip. imagen",
     imageAuthor: "",
-    imageNote: "images/imagedefault.png",
+    imageNote: "https://www.lanacion.com.ar/resizer/v2/escapada-visitar-los-caracteristicos-paredones-45LBYAO5PVBUZIALKWDJAVH7IE.jpg?auth=1bd21b7995cc428b0a8d58edc002e4d42ba622154a113ee8ef366f64b6194c53&width=1920&height=1280&quality=70&smart=true",
     lead: "Windows Multimedia.",
     title:
       "la gran marca prevee equiparar a Apple en calidad de sonido para 2026",
@@ -133,4 +136,4 @@ const focalIzquierdoData = [
   },
 ];
 
-export { focalIzquierdoData, notas4ej1, focalDerechoData, card3 };
+export { focalIzquierdoData, notas4ej1, card3 };

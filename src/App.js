@@ -1,4 +1,4 @@
-import { focalIzquierdoData, notas4ej1, focalDerechoData, card3 } from "./data";
+import { focalIzquierdoData, notas4ej1, card3 } from "./data";
 import Card from "./components/Cards/Card";
 import Divider from "./components/Divider";
 import Layout from "../src/components/Layout";
@@ -32,28 +32,7 @@ function App() {
           </GridContainer>
 
           <Divider fullScreen={true} />
-          {/* 
-          <GridContainer styleGrid="focal-derecho">
-            <TitleContainer title="Focal derecho" />
-            {focalDerechoData.map((nota, i) => {
-              return (
-                <Card
-                  classCard={`card-${i + 1}`}
-                  imageAlt={nota.imageAlt}
-                  imageNote={nota.imageNote}
-                  key={i}
-                  lead={nota.lead}
-                  subTitle={nota.subTitle}
-                  title={nota.title}
-                  type={nota.type}
-                  urlNota={nota.urlNote}
-                />
-              );
-            })}
-          </GridContainer> */}
-
-          <Divider fullScreen={true} />
-
+          
           <GridContainer styleGrid="cards3">
             <TitleContainer title="3 cards" />
             {card3.map((nota, i) => {
