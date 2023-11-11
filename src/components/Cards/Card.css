@@ -18,7 +18,7 @@
     
 }
 .card-body-note{
-    font-family: suecaslab;
+
     padding: 0rem .3rem;
     font-weight:400;
 }
@@ -41,7 +41,6 @@ em{
 }
 .card-body-author{
     padding: 0rem .3rem;
-    font-family: suecaslab;
     font-weight:400;
     margin-bottom: auto;
     display: flex;
