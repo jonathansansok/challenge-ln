@@ -1,4 +1,4 @@
-import "./NoteX2.css";
+import "./articulos4Ej1.css";
 import "./FocalIzquierdo.css";
 import "./NoteX6.css";
 import "./MainContainer.css";

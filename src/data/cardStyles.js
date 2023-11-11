@@ -14,6 +14,5 @@ module.exports = {
     img: "image-note",
     marque: "marquee-note",
     author: "fullname-author",
-    
   },
 };

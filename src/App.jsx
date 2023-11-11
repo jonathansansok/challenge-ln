@@ -1,7 +1,7 @@
-import { focalIzquierdoData, notas4ej1, card3 } from "./data";
+import { focalIzquierdoData, notas4ej1, card3 } from "./data/index.js";
 import Card from "./components/Cards/Card.jsx";
 import Divider from "./components/Divider.jsx";
-import Layout from "../src/components/Layout/index.jsx";
+import Layout from "./components/Layout/index.jsx";
 import GridContainer from "./components/Containers/Grid.jsx";
 import TitleContainer from "./components/Containers/TitleContainer.jsx";
 
