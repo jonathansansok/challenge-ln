@@ -32,7 +32,7 @@ function App() {
           </GridContainer>
 
           <Divider fullScreen={true} />
-          
+
           <GridContainer styleGrid="cards3">
             <TitleContainer title="3 cards" />
             {card3.map((nota, i) => {
@@ -75,7 +75,6 @@ function App() {
             })}
           </GridContainer>
         </div>
-
       </Layout>
     </div>
   );
