@@ -1,34 +1,41 @@
 import { focalIzquierdoData, notas4ej1, card3 } from "./data/index.js";
-import Card from "./components/Cards/Card.jsx";
-import Divider from "./components/Divider.jsx";
-import Layout from "./components/Layout/index.jsx";
-import GridContainer from "./components/Containers/Grid.jsx";
-import TitleContainer from "./components/Containers/TitleContainer.jsx";
+import Card from "./components/Cards/Card";
+import Divider from "./components/Divider";
+import Layout from "./components/Layout/index";
+import GridContainer from "./components/Containers/Grid";
+import TitleContainer from "./components/Containers/TitleContainer";
+import { Nota } from "./Interfaces/Notas.js";
 
 function App() {
+  let notas : Nota[] = notas4ej1 ;
   return (
     <div className="App">
       <Layout>
         <div>
           <Divider fullScreen={true} />
           <GridContainer styleGrid="articulos4Ej1">
+            
             <TitleContainer title="4 Artículos" />
-            {notas4ej1.map((nota, i) => {
+            { notas.map((nota: Nota, i: number) => {
               return (
+                <div key={i}>
                 <Card
                   author={nota.author}
                   classCard={`card-${i + 1}`}
-                  imageAlt={nota.imageAlt}
+                  imageAlt={nota.author}
                   imageNote={nota.imageNote}
-                  key={i}
+                  
                   lead={nota.lead}
                   title={nota.title}
                   subTitle={nota.subTitle}
                   type={nota.type}
                   urlNota={nota.urlNote}
                 />
+                </div>
               );
             })}
+          
+           
           </GridContainer>
 
           <Divider fullScreen={true} />
