@@ -18,7 +18,7 @@ describe('Pruebas para el componente FocalIzquierdoComponent', () => {
     render(<FocalIzquierdoComponent data={focalIzquierdoData} />);
 
     // Puedes usar getByText, getByRole, u otras funciones de @testing-library/react para seleccionar elementos
-    const authorElement = screen.getByText('Jonathan Sansó');
+    const authorElement = screen.getByText('Jonathan Sansó-nombreequivocado');
     expect(authorElement).toBeInTheDocument();
 
     // Agrega aquí más expectativas para otros elementos del componente
