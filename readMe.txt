@@ -1,0 +1,1 @@
+abrir con npx tsc --init
