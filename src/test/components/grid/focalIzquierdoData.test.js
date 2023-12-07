@@ -5,29 +5,22 @@ import { focalIzquierdoData } from "../../../data/index.js";
 test("should handle click events on articles", () => {
     const articles = [
         {
-            id: "001",
-            lead: "Lead1",
-            title: "Este es el lugar que ocuparía un Title1 con varias palabras",
-            marquee: "Nombre y apellido1",
-            image: "https://example.com/image.jpg",
-            urlNote: "https://example.com/nota0.html",
-        },
-        {
-            id: "002",
-            lead: "Lead2",
-            title: "Este es el lugar que ocuparía un Title2 con varias palabras",
-            marquee: "Nombre y apellido2",
-            image: "https://example.com/image.jpg",
-            urlNote: "https://example.com/nota1.html",
-        },
-        {
-            id: "003",
-            lead: "Lead3",
-            title: "Este es el lugar que ocuparía un Title3 con varias palabras",
-            marquee: "Nombre y apellido3",
-            image: "https://example.com/image.jpg",
-            urlNote: "https://example.com/nota2.html",
-        },
+            author: "string",
+            imageAlt: "string",
+            imageAuthor: "string",
+            imageNote: "string",
+            lead: "string",
+            title: "string",
+            subTitle: "string",
+            type: {
+                article: "string",
+                body: "string",
+                mediaContainer: "string",
+                img: "string",
+                marque:"string",
+                author: "string",
+            },
+            urlNote: "string", }
     ];
 
     const getArticles = (quantity) => {
