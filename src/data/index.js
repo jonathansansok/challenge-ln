@@ -114,7 +114,7 @@ const focalIzquierdoData = [
     imageAlt: "Descrip. imagen",
     imageAuthor: "",
     imageNote: "https://resizer.glanacion.com/resizer/v2/el-portugues-da-silva-un-emblema-de-la-grabacion-QDP5GDVWD5GBTILBFMUJX5W6HM.JPG?auth=d302fe9367534b109652059947987914d9edb2303058b750115277b040255308&width=780&height=520&quality=70&smart=true",
-    lead: "El sonido digital busca lo analógico",
+    lead: "El sonido digital busca lo analógico.",
     title:
       "Software para lograr emulación analógica",
     subTitle: "",
