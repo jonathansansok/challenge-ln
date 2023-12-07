@@ -1,6 +1,7 @@
 import { render } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import { focalIzquierdoData } from "../../../src/data/index";
+import { focalIzquierdoData } from "../../../data/index.js";
+
 test("should handle click events on articles", () => {
     const articles = [
         {
@@ -9,7 +10,7 @@ test("should handle click events on articles", () => {
             title: "Este es el lugar que ocuparía un Title1 con varias palabras",
             marquee: "Nombre y apellido1",
             image: "https://example.com/image.jpg",
-            url: "https://example.com/nota0.html",
+            urlNote: "https://example.com/nota0.html",
         },
         {
             id: "002",
@@ -17,7 +18,7 @@ test("should handle click events on articles", () => {
             title: "Este es el lugar que ocuparía un Title2 con varias palabras",
             marquee: "Nombre y apellido2",
             image: "https://example.com/image.jpg",
-            url: "https://example.com/nota1.html",
+            urlNote: "https://example.com/nota1.html",
         },
         {
             id: "003",
@@ -25,7 +26,7 @@ test("should handle click events on articles", () => {
             title: "Este es el lugar que ocuparía un Title3 con varias palabras",
             marquee: "Nombre y apellido3",
             image: "https://example.com/image.jpg",
-            url: "https://example.com/nota2.html",
+            urlNote: "https://example.com/nota2.html",
         },
     ];
 

@@ -1,17 +1,7 @@
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import { focalIzquierdoData } from "../../../src/data/index";
-
-describe("pruebo render de mi focal izquierdo", () => {
-  test("los valores se encuentran en el documento", () => {
-    render(<focalIzquierdoData />);
-    const article = screen.getByRole("strong", { name: "Jonathan Sansó" });
-    expect(article).toBeInTheDocument();
-    
-    });
-});
-
-/* test("should handle click events on articles", () => {
+import { focalIzquierdoData } from "../../../data/index";
+test("should handle click events on articles", () => {
     const articles = [
         {
             id: "001",
@@ -57,4 +47,4 @@ describe("pruebo render de mi focal izquierdo", () => {
             "https://example.com/nota" + index + ".html"
         );
     });
-}); */
+});
