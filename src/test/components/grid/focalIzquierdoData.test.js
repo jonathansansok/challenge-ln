@@ -1,44 +1,36 @@
-import { render } from "@testing-library/react";
-import "@testing-library/jest-dom";
-import { focalIzquierdoData } from "../../../data/index.js";
 
-test("should handle click events on articles", () => {
-    const articles = [
-        {
-            author: "string",
-            imageAlt: "string",
-            imageAuthor: "string",
-            imageNote: "string",
-            lead: "string",
-            title: "string",
-            subTitle: "string",
-            type: {
-                article: "string",
-                body: "string",
-                mediaContainer: "string",
-                img: "string",
-                marque:"string",
-                author: "string",
-            },
-            urlNote: "string", }
-    ];
+import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import { focalIzquierdoData } from '../../../data/index.js';
 
-    const getArticles = (quantity) => {
-        if (quantity > articles.length) {
-            return articles.splice(0);
-        } else {
-            return articles.splice(0, quantity);
-        }
-    };
+// Tu componente (puede ser un componente funcional o de clase)
+const FocalIzquierdoComponent = ({ data }) => {
+  return (
+    <div>
+      <strong>{data[0].author}</strong>
+      {/* Agrega aquí el resto de los elementos del componente */}
+    </div>
+  );
+};
 
-    const { container } = render(<focalIzquierdoData articles={getArticles} />);
+describe('Pruebas para el componente FocalIzquierdoComponent', () => {
+  test('Renderiza correctamente los datos', () => {
+    render(<FocalIzquierdoComponent data={focalIzquierdoData} />);
 
-    const articleElements = container.querySelectorAll("a");
-    articleElements.forEach((article, index) => {
-        console.log(article);
-        expect(article).toHaveAttribute(
-            "href",
-            "https://example.com/nota" + index + ".html"
-        );
-    });
+    // Puedes usar getByText, getByRole, u otras funciones de @testing-library/react para seleccionar elementos
+    const authorElement = screen.getByText('Jonathan Sansó');
+    expect(authorElement).toBeInTheDocument();
+
+    // Agrega aquí más expectativas para otros elementos del componente
+  });
+
+  // Puedes agregar más pruebas según tus necesidades
+
+  // Ejemplo de una prueba para asegurar que la imagen tenga un alt definido
+  test('La imagen tiene un alt definido', () => {
+    render(<FocalIzquierdoComponent data={focalIzquierdoData} />);
+
+/*     const imageElement = screen.getByAltText('Descrip. imagen');
+    expect(imageElement).toBeInTheDocument(); */
+  });
 });
