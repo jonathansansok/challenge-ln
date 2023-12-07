@@ -5,7 +5,7 @@ import { focalIzquierdoData } from "../../../src/data/index";
 describe("pruebo render de mi focal izquierdo", () => {
   test("los valores se encuentran en el documento", () => {
     render(<focalIzquierdoData />);
-    const article = screen.getByRole("strong", { author: String });
+    const article = screen.getByRole("strong", { name: "Jonathan Sansó" });
     expect(article).toBeInTheDocument();
     
     });
