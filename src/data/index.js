@@ -73,7 +73,7 @@ const card3 = [
   {
     author: "Augusto Kansas",
     imageAlt: "Descrip. imagen",
-    imageNote: "https://www.lanacion.com.ar/resizer/v2/escapada-visitar-los-caracteristicos-paredones-45LBYAO5PVBUZIALKWDJAVH7IE.jpg?auth=1bd21b7995cc428b0a8d58edc002e4d42ba622154a113ee8ef366f64b6194c53&width=1920&height=1280&quality=70&smart=true",
+    imageNote: "https://www.lanacion.com.ar/resizer/YsCXG3QLSZ2hGHxdaqENlf35HkQ=/610x406/smart/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/HQWZQN5XYNBJTKN2FYJSRW4D24.jpg",
     lead: "Al Norte",
     title:
       "Turismo en USA o Canadá",
@@ -100,7 +100,7 @@ const focalIzquierdoData = [
     author: "Jonathan Sansó",
     imageAlt: "Descrip. imagen",
     imageAuthor: "",
-    imageNote: "https://www.lanacion.com.ar/resizer/v2/escapada-visitar-los-caracteristicos-paredones-45LBYAO5PVBUZIALKWDJAVH7IE.jpg?auth=1bd21b7995cc428b0a8d58edc002e4d42ba622154a113ee8ef366f64b6194c53&width=1920&height=1280&quality=70&smart=true",
+    imageNote: "https://www.lanacion.com.ar/resizer/v2/el-onepus-12-ya-fue-presentado-en-china-y-llegara-AEWZJYM5V5BHVHY7GFQYSCRGRY.jpg?auth=be62dfbe9fbeb526a78ff6e3e228d78422f69eb393f9443bbc8eef9a8a7538b0&width=880&height=586&quality=70&smart=true",
     lead: "DIGITALIZARSE.",
     title:
       "Masiva apertura en Twitch y Youtube de los clásicos periodistas de TV.",
@@ -113,10 +113,10 @@ const focalIzquierdoData = [
     author: "Juan Bugera",
     imageAlt: "Descrip. imagen",
     imageAuthor: "",
-    imageNote: "https://www.lanacion.com.ar/resizer/v2/escapada-visitar-los-caracteristicos-paredones-45LBYAO5PVBUZIALKWDJAVH7IE.jpg?auth=1bd21b7995cc428b0a8d58edc002e4d42ba622154a113ee8ef366f64b6194c53&width=1920&height=1280&quality=70&smart=true",
+    imageNote: "https://resizer.glanacion.com/resizer/v2/el-portugues-da-silva-un-emblema-de-la-grabacion-QDP5GDVWD5GBTILBFMUJX5W6HM.JPG?auth=d302fe9367534b109652059947987914d9edb2303058b750115277b040255308&width=780&height=520&quality=70&smart=true",
     lead: "El sonido digital busca lo analógico",
     title:
-      "Inversion millonaria en software para lograr emulación analógica",
+      "Software para lograr emulación analógica",
     subTitle: "",
     type: typeCard.note,
     urlNote: "https://slatedigital.com/",
@@ -126,7 +126,7 @@ const focalIzquierdoData = [
     author: "Pablo Waves",
     imageAlt: "Descrip. imagen",
     imageAuthor: "",
-    imageNote: "https://www.lanacion.com.ar/resizer/v2/escapada-visitar-los-caracteristicos-paredones-45LBYAO5PVBUZIALKWDJAVH7IE.jpg?auth=1bd21b7995cc428b0a8d58edc002e4d42ba622154a113ee8ef366f64b6194c53&width=1920&height=1280&quality=70&smart=true",
+    imageNote: "https://www.lanacion.com.ar/resizer/v2/la-nueva-funcion-de-apple-namedrop-alerto-a-las-D3RT5TQ2VZE3DNF7UTG7M7TBWE.jpg?auth=60e5b106cbd07ef252404eadb960f9ceef73bccba2e0a53304a4000aaf36a5f3&width=880&height=586&quality=70&smart=true",
     lead: "Windows Multimedia.",
     title:
       "la gran marca prevee equiparar a Apple en calidad de sonido para 2026",
