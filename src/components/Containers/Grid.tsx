@@ -1,6 +1,6 @@
 import "./articulos4Ej1.scss";
 import "./FocalIzquierdo.scss";
-import "./NoteX6.scss";
+import "./NoteS3.scss";
 import "./MainContainer.scss";
 import { ReactNode } from "react";
 
