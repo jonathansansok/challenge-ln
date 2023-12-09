@@ -18,7 +18,7 @@ interface CardContainerProps  {
 
 export default function Card( props: CardContainerProps ) {
   if (props.urlNota.includes('https://')){
-    throw new Error('Link no valido');
+    //throw new Error('Link no valido');
 
 
   } 
