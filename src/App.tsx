@@ -24,7 +24,6 @@ function App() {
                   classCard={`card-${i + 1}`}
                   imageAlt={nota.author}
                   imageNote={nota.imageNote}
-                  
                   lead={nota.lead}
                   title={nota.title}
                   subTitle={nota.subTitle}

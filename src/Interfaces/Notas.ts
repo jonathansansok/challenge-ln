@@ -18,6 +18,6 @@ export interface ObjectCss {
     body: string;
     mediaContainer: string;
     img: string;
-    marque: string;
+    marque?: string;
     author: string;
 } 

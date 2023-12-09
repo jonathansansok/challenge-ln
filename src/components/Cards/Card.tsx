@@ -17,6 +17,11 @@ interface CardContainerProps  {
 
 
 export default function Card( props: CardContainerProps ) {
+  if (props.urlNota.includes('https://')){
+    throw new Error('Link no valido');
+
+
+  } 
   return (
     <div className={props.classCard}>
       <article className={props.type && props.type.article}>
