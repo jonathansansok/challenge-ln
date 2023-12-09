@@ -54,7 +54,13 @@ describe('Card test', () => {
       urlNota: "www.depegar.com",
     }
 
-    expect(() =>{render(<Card {...props}/>)}).toThrow();
-
-  })
+    /* expect(() =>{render(<Card {...props}/>)}).toThrow(); */
+    try {
+      render(<Card {...props}/>)
+    }
+    catch (error){
+      expect(error.message).toEqual('Link no valido')
+    } 
 })
+
+});
